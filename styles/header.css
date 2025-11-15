@@ -1,0 +1,28 @@
+header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 0% 3% 0% 3%;
+    z-index: 1;
+}
+
+.header_links {
+    margin-left: 10%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#header_logo {
+    margin: 1vh;
+    height: 3%;
+    width: 6%;
+    cursor: pointer;
+    transition: 200ms;
+}
+#header_logo:hover {
+    filter: drop-shadow(0px 0px 1px white);
+}
